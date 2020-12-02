@@ -16,7 +16,7 @@ struct Stock
 
 bool ricerca(Stock stock[], Stock nuovostock, int ll, int& pos)
 {
-	pos = 0;
+	pos = 1;
 
 	for (pos = 0; pos < ll; pos++)
 	{
